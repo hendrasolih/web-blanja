@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "Metropolis Light";
+  src: url(../fonts/metropolis.light.otf);
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url(../fonts/metropolis.regular.otf);
+}
+@font-face {
+  font-family: "Metropolis Semibold";
+  src: url(../fonts/metropolis.semi-bold.otf);
+}
+
+@font-face {
+  font-family: "Metropolis Bold";
+  src: url(../fonts/metropolis.bold.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 28%;
+  margin-top: 7vh;
+  margin-bottom: 10vh;
+  font-family: 'Metropolis Bold';
+  display: flex;
+  flex-direction: column;
+}
+
+.main-confirmations {
+  width: 35%;
+}
+
+.main-confirmations form {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.login-p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 40px;
+}
+
+.logo {
+  /* border: 1px solid blue; */
+  margin: auto;
+  color: #DB3022;
+  display: flex;
+  justify-content: center;
+}
+
+.logo p {
+  margin-left: 4px;
+  margin-top: 20px;
+  font-size: 28px;
+  line-height: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.button-seller,
+.button-customer {
+  font-family: 'Metropolis';
+  font-size: 14px;
+  line-height: 20px;
+  width: 40%;
+  height: 48px;
+}
+
+.button-seller {
+  border: none;
+  background-color: #DB3022;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #fff;
+}
+
+.button-customer {
+  border: 1px solid #9B9B9B;
+  background-color: #fff;
+  color: #9B9B9B;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  margin-right: -1px;
+}
+
+form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  height: 48px;
+  font-family: 'Metropolis';
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 23.3px;
+  color: #9B9B9B;
+  border: 1px solid #9B9B9B;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.reset-password-p {
+  font-family: 'Metropolis';
+  margin-top: 22px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #F01F0E;
+}
+
+#input-password-confirm {
+  margin-top: 16px;
+}
+#input-email {
+  margin-bottom: 16px;
+}
+
+#link {
+  font-family: "Metropolis Light";
+  text-decoration: none;
+  margin-top: 26px;
+  text-align: right;
+  font-size: 14px;
+  line-height: 14px;
+  color: #DB3022;
+}
+
+.button-primary {
+  border: none;
+  margin-top: 26px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  background-color: #DB3022;
+  color: #fff;
+  height: 48px;
+  /* width: 401px; */
+}
+
+.button-primary a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#form-p {
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Metropolis Light";
+  font-size: 14px;
+  line-height: 14px;
+}
+
+#form-p a {
+  text-decoration: none;
+  color: #DB3022;
+}

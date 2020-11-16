@@ -1,0 +1,9 @@
+@media only screen and (max-width: 992px) {
+    main {
+        width: 50%;
+    }
+
+    .main-confirmations {
+        width: 70%;
+    }
+}

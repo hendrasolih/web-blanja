@@ -1,0 +1,324 @@
+@font-face {
+    font-family: "Metropolis Light";
+    src: url(fonts/metropolis.light.otf);
+  }
+  @font-face {
+    font-family: "Metropolis";
+    src: url(fonts/metropolis.regular.otf);
+  }
+  @font-face {
+    font-family: "Metropolis Semibold";
+    src: url(fonts/metropolis.semi-bold.otf);
+  }
+  
+  @font-face {
+    font-family: "Metropolis Bold";
+    src: url(fonts/metropolis.bold.otf);
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+  }
+
+
+body {
+  font-family: "Metropolis";
+  background-color: #e5e5e5b0;
+  color: #DB3022;
+  overflow-x: hidden;
+}
+
+nav {
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+
+/* .navbar {
+  position: -webkit-sticky;
+  position: sticky;
+} */
+
+.img-gallery {
+  position: relative;
+  height: 180px;
+  overflow-x: hidden;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 6px;
+}
+
+.img {
+  display: inline-block;
+  width: 456px;
+  height: 180px;
+  background-size: cover;
+  background-position: top;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  font-family: "Metropolis Bold";
+  color: #fff;
+  font-size: 38px;
+}
+
+.img-1{
+  background-image: linear-gradient(rgba(42, 38, 61, 0.2), rgba(42, 38, 61, 0.2)), url(img/01.jpg);
+  position: relative;
+}
+
+.img-2{
+  background-image: linear-gradient(rgba(42, 38, 61, 0.2), rgba(42, 38, 61, 0.2)), url(img/02.jpg);
+  background-position: 50% 30%;
+  position: relative;
+}
+
+.img-3 {
+  position: relative;
+  background-image: linear-gradient(rgba(42, 38, 61, 0.2), rgba(42, 38, 61, 0.2)), url(img/03.jpg);
+  background-position: left  center;
+  left: 504px;
+}
+.img-4 {
+  position: relative;
+  background-image: linear-gradient(rgba(42, 38, 61, 0.2), rgba(42, 38, 61, 0.2)), url(img/04.jpg);
+  background-position: 120px 0px;
+  right: 504px;
+}
+
+.text-center {
+  margin-top: 10%;
+}
+
+
+#icon-search {
+  margin-left: -30px;
+  color: #8E8E93;
+  font-size: 18px;
+}
+
+#icon-filter {
+  color:#8E8E93;
+  margin-top: 3px;
+  font-size: 17px;
+}
+
+#cart-search{
+  color:#8E8E93;
+  font-size: 24px;
+}
+
+.navbar-brand {
+  font-family: "Metropolis Bold" !important;
+}
+
+.form-control {
+  border: 1px solid #8E8E93 !important;
+  border-radius: 23px;
+  width: 1.5rem;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  -o-border-radius: 23px;
+}
+
+.login {
+  border: none;
+  background-color:  #DB3022;
+  color: #fff;
+}
+
+.login:hover,
+.login:active {
+  background-color:  #DB3022;
+}
+
+.signup:hover,
+.signup:active {
+  background-color:  #fff;
+}
+
+.login a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.signup a {
+  text-decoration: none;
+  color: #8E8E93;
+}
+
+
+.signup {
+  border: 1px solid #8E8E93;
+  background-color:  #fff;
+  color: #8E8E93;
+}
+.btn-primary {
+  border-radius: 24px !important;
+  -webkit-border-radius: 24px !important;
+  -moz-border-radius: 24px !important;
+  -ms-border-radius: 24px !important;
+  -o-border-radius: 24px !important;
+}
+
+.btn-outline-dark {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #8E8E93 !important;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+
+
+.h-category{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5rem;
+}
+
+.h-category h1 {
+  font-family: "Metropolis Bold";
+  color: #222222;
+}
+
+.h-category p {
+  font-family: "Metropolis Light";
+  color: #9B9B9B;
+}
+
+.item-category {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.item-category-col  {
+  width: 206px;
+  height: 220px;
+  margin-right: 28px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  background-color: rgba(204, 11, 4, 1);
+  background-image: url(img/item-cat-01.png);
+  background-size: 116px 146px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0;
+  font-family: "Metropolis Bold";
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.item-category .row div:nth-child(2) {
+  background-color: rgba(28, 51, 145, 1);
+  background-image: url(img/item-cat-02.png);
+  background-size: 158px 146px;
+  background-repeat: no-repeat;
+}
+.item-category .row div:nth-child(3) {
+  background-color: rgba(246, 123, 2, 1);
+  background-image: url(img/item-cat-03.png);
+  background-size: 131px 131px;
+  background-repeat: no-repeat;
+}
+.item-category .row div:nth-child(4) {
+  background-color: rgba(227, 31, 81, 1);
+  background-image: url(img/item-cat-04.png);
+  background-size: 76px 131px;
+  background-repeat: no-repeat;
+}
+.item-category .row div:nth-child(5) {
+  background-color: rgba(87, 205, 158, 1);
+  background-image: url(img/item-cat-05.png);
+  background-size: 169px 109px;
+  background-repeat: no-repeat;
+}
+
+.p-cate {
+  text-align: center;
+  margin-top: 40%;
+}
+
+.items-gallery {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 25px;
+}
+
+.item-gallery {
+  width: 208px;
+  height: 278px;
+}
+
+.item-sell-pict {
+  background-image: url(img/men-cloth.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #fff;
+}
+
+.item-sell-info {
+  background-color: #fff;
+  height: 142px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+#prod-name {
+  font-family: "Metropolis Semibold";
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  margin: 0 12px 6px;
+}
+
+#prod-price {
+  font-family: "Metropolis Semibold";
+  margin: 0 12px 6px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+#prod-brand {
+  font-family: "Metropolis Semibold";
+  margin: 0 12px 14px;
+  font-size: 12px;
+  line-height: 12px;
+  color: #9B9B9B;
+}
+
+#prod-rating {
+  margin: 0 12px 0;
+}
+
+
+#prod-rating ion-icon {
+  font-size: 13px;
+  color: #FFBA49;
+}
+
+#prod-rating p {
+  display: inline;
+  color: #9B9B9B;
+  font-size: 11px;
+  line-height: 11px;
+}
+
+.popular {
+  margin-bottom: 97px;
+}
